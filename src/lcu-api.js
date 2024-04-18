@@ -55,8 +55,8 @@ var methods = {};
 			var options = {
 				url: `${conn_data.protocol}://${conn_data.address}:${conn_data.port}${endpoint}`,
 				auth: {
-					"user": conn_data.username,
-					"pass": conn_data.password
+					"pass": conn_data.password,
+					"user": conn_data.username
 				},
 				headers: {
 					'Accept': 'application/json'
