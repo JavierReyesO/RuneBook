@@ -4,9 +4,9 @@ var freezer = require('./state');
 freezer.get().configfile.set({
 	name: settings.get("config.name") + settings.get("config.ext"),
 	cwd: settings.get("config.cwd"),
-	leaguepath: settings.get("leaguepath"),
 	pathdiscovery: settings.get("pathdiscovery"),
 	darktheme: settings.get("darktheme"),
+	leaguepath: settings.get("leaguepath"),
 	lang: settings.get("lang")
 });
 
